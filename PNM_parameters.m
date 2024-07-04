@@ -2,7 +2,7 @@ clear
 V = 3.5; % set voltage
 V2 = -1.0; % reset voltag
 step = 0.01; % step voltage
-alpha=  1; 
+alpha =  1; 
 beta = 0;
 m = 10;
 n = 40;
@@ -14,7 +14,7 @@ min_black = 2;
 fail1 = 0; % Probability of failure during the reset process
 fail2 = 0; % Probability of failure during the set process
 
-aaa = 0; % Standard deviation
+aaa = 0; % Standard deviation of resistor
 bbb = 20; % Standard deviation of Vset voltage
 ccc = 20; % Standard deviation of Vreset voltage
 
